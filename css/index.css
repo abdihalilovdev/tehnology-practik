@@ -24,7 +24,28 @@ body {
 #header .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  position: relative;
+}
+#header .header--img {
+  padding: 180px 0;
+}
+#header .header h1 {
+  position: absolute;
+  margin-top: 220px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #000000;
+  border: 1px solid #FFFFFF;
+}
+#header .header p {
+  position: absolute;
+  margin-top: 300px;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
 }
 
 /*# sourceMappingURL=index.css.map */
