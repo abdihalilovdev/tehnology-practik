@@ -1,0 +1,189 @@
+#footer .footer--general__blocks {
+  display: flex;
+  width: 362px;
+  height: 601px;
+  left: 40px;
+  top: 137px;
+  background: #F6F6F6;
+  border: 1px solid #C7C7C7;
+  border-radius: 9px;
+}
+#footer .footer--general__blocks h4 {
+  width: 188px;
+  height: 22px;
+  top: 340px;
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  color: #000000;
+  margin-left: 80px;
+}
+#footer .footer--general__blocks p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+#footer .footer--general__blocks--develop p {
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+}
+#footer .footer--general__blocks--develop__text .footer--general__title--search__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 361px;
+  height: 100px;
+  background: linear-gradient(0deg, #C7C7C7, #C7C7C7), linear-gradient(0deg, #F6F6F6, #F6F6F6);
+  border-radius: 9px;
+  margin: 5px 0 5px 0;
+}
+#footer .footer--general__blocks--develop__text button {
+  width: 360px;
+  background: #181717;
+  border-radius: 5.39259px;
+  font-weight: 500;
+  font-size: 13px;
+  height: 40px;
+  color: #FFFFFF;
+}
+#footer .footer--general__blocks--develop__text h2 {
+  font-weight: 700;
+  font-size: 12px;
+  color: #000000;
+  margin-right: 65px;
+  padding: 5px 0;
+}
+#footer .footer--general__blocks--develop__text p {
+  font-weight: 300;
+  font-size: 12px;
+  color: #000000;
+}
+#footer .footer--general__blocks--develop__text h1 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+#footer .footer--general__blocks--develop__text p {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -0.408px;
+  margin-left: -75px;
+  color: #000000;
+}
+#footer .footer--general__blocks--develop__text--reviews h2 {
+  font-weight: 600;
+  font-size: 12px;
+  color: #000000;
+  padding: 5px 20px;
+}
+#footer .footer--general__blocks--develop__text--titles {
+  display: flex;
+  align-items: center;
+}
+#footer .footer--general__blocks--develop__text--titles a {
+  margin-left: 50%;
+}
+#footer .footer--general__blocks--develop__text--block {
+  width: 227px;
+  height: 76px;
+  border-radius: 5px;
+  background: aquamarine;
+}
+#footer .footer--general__blocks--develop__text--block .fons {
+  display: flex;
+  align-items: center;
+}
+#footer .footer--general__blocks--develop__text--block .fons .block-fon {
+  display: flex;
+  align-items: center;
+}
+#footer .footer--general__blocks--develop__text--block .fons .block-fon h5 {
+  font-weight: 600;
+  font-size: 9px;
+  width: 60px;
+  letter-spacing: -0.408px;
+  color: #000000;
+}
+#footer .footer--general__blocks--develop__text--block .fons .block-fon img {
+  margin-left: -100px;
+}
+#footer .footer--general__blocks--develop__text--messages {
+  width: 361px;
+  height: 76px;
+  background: rgba(0, 0, 0, 0.44);
+  border-radius: 10px;
+}
+#footer .footer--general__blocks--develop__text--messages__images img {
+  position: absolute;
+  right: 50px;
+}
+#footer .footer--general__blocks--develop__text--messages h2 {
+  font-weight: 600;
+  font-size: 9px;
+  color: #000000;
+}
+#footer .footer--general__blocks--develop__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px;
+}
+#footer .footer--general__blocks--develop hr {
+  width: 358px;
+  height: 0;
+  left: 42px;
+  top: 483px;
+  border: 1px solid #BFBFBF;
+  margin: 10px;
+}
+#footer .footer--general__blocks--redux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer--general__texts h4 {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0;
+  letter-spacing: -0.408px;
+  color: #000000;
+}
+#footer .footer--general--share {
+  align-items: center;
+  width: 93px;
+  height: 59px;
+  left: 63px;
+  top: 393px;
+  background: rgba(188, 229, 252, 0.47);
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 25px;
+}
+#footer .footer--general h6 {
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  color: #000000;
+}
+#footer .footer--general .fa-share-nodes {
+  color: red;
+}
+#footer .footer--general--btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=profile.css.map */
