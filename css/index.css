@@ -38,7 +38,6 @@ body {
   font-size: 30px;
   text-align: center;
   color: #000000;
-  border: 1px solid #FFFFFF;
 }
 #header .header p {
   position: absolute;
@@ -47,6 +46,192 @@ body {
   font-size: 14px;
   text-align: center;
   color: #000000;
+}
+
+#footer .footer--general__title--text {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+#footer .footer--general__title--text img {
+  padding: 0 120px;
+}
+#footer .footer--general__title h1 {
+  margin-left: 30px;
+  padding: 20px;
+}
+#footer .footer--general__title .footer--general__title--search__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 373px;
+  height: 100px;
+  background: #F6F6F6;
+  border: 1px solid #C7C7C7;
+  border-radius: 9px;
+  margin: 5px 0px 5px 0px;
+}
+#footer .footer--general__title h2 {
+  font-weight: 700;
+  font-size: 12px;
+  color: #000000;
+  margin-right: 65px;
+  padding: 5px 0;
+}
+#footer .footer--general__title p {
+  font-weight: 300;
+  font-size: 12px;
+  color: #000000;
+}
+#footer .footer--general__title #See\ more:checked ~ .hero--title__tab--images {
+  opacity: 0;
+  transition: 0.4s;
+}
+#footer .footer--general__title #All:checked ~ .hero--title__tab--img {
+  opacity: 0;
+  transition: 0.4s;
+}
+#footer .footer--general__title .swiper {
+  width: 100%;
+  height: 100%;
+}
+#footer .footer--general__title .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+}
+#footer .footer--general__title .about--modal {
+  display: none;
+}
+#footer .footer--general__title .about--modal__block {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#footer .footer--general__title .about--modal__block--square {
+  width: 1170px;
+  height: 603px;
+  background: white;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 38px;
+  position: relative;
+  overflow-y: scroll;
+  animation: nod 0.5s alternate linear;
+}
+@keyframes nod {
+  0% {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(0.6);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  90% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#footer .footer--general__title .about--modal__block--square p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+#footer .footer--general__title .about--modal__block--square__close {
+  color: red;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: absolute;
+  right: 15px;
+  height: 15px;
+}
+#footer .footer--general__title--star p {
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.408px;
+  color: #000000;
+  margin-right: 35px;
+}
+#footer .footer--general__title--star img {
+  padding: 15px 0;
+  opacity: 999;
+}
+#footer .footer--general__title hr {
+  position: absolute;
+  width: 365px;
+  border: 1px solid #BFBFBF;
+  left: 1px;
+  top: 89px;
+}
+#footer .footer--general__title button {
+  background: #181717;
+  border-radius: 5.39259px;
+  width: 380px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 13.4815px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  transition: 0.4s;
+}
+#footer .footer--general__title button:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+#footer .footer--general__title h4 {
+  margin-left: 100px;
+}
+#footer .footer--general__title__img {
+  padding: 0 140px;
+}
+#footer .footer--general__title--search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer .footer--general__title--search__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer .footer--general__title--search__item--icons .fa-filter {
+  padding: 10px 15px;
+  font-size: 22px;
+  background: #D6D6D6;
+  border-radius: 4px;
+  margin-left: 12px;
+}
+#footer .footer--general__title--search__item .fa-magnifying-glass {
+  position: absolute;
+  margin-left: 290px;
+}
+#footer .footer--general__title--search__item input {
+  position: relative;
+  width: 291px;
+  height: 42px;
+  background: #D6D6D6;
+  border-radius: 4px;
+  padding: 0 10px;
+  margin: 35px 0;
 }
 
 #hero .hero--title__tabs--btn {
@@ -88,7 +273,8 @@ body {
   justify-content: space-between;
 }
 #hero .hero--title__tab--text {
-  opacity: 0;
+  display: flex;
+  align-items: center;
 }
 #hero .hero--title__tab input {
   opacity: 0;
