@@ -19,6 +19,7 @@ ul, ol, li {
 
 body {
   font-family: "Montserrat", sans-serif;
+  background: #EFEFEF;
 }
 
 #header .header {
@@ -46,6 +47,159 @@ body {
   font-size: 14px;
   text-align: center;
   color: #000000;
+}
+
+#hero .hero--title__tabs--btn {
+  opacity: 0;
+}
+#hero .hero--title__tabs--btn2 {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(0, 92, 145, 0.59);
+}
+#hero .hero--title__tabs label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .hero--title__tab--icons button {
+  width: 344px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 13.4815px;
+  color: #FFFFFF;
+  background: #181717;
+  border-radius: 5.39259px;
+  transition: 0.3s;
+  margin: 0 19px;
+  cursor: pointer;
+}
+#hero .hero--title__tab--icons button:hover {
+  transition: 0.3s;
+  transform: scale(1.03);
+}
+#hero .hero--title__tab--icons__img {
+  padding: 10px 150px;
+}
+#hero .hero--title__tab--icons__swiper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .hero--title__tab--text {
+  opacity: 0;
+}
+#hero .hero--title__tab input {
+  opacity: 0;
+}
+#hero .hero--title__elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#hero .hero--title__elements--btn button {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 5.39259px;
+  font-weight: 500;
+  font-size: 13.4815px;
+  color: #000000;
+  width: 170px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  margin: 20px 0;
+  cursor: pointer;
+}
+#hero .hero--title__elements--btn button:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+#See\ more:checked ~ .hero--title__tab--images {
+  opacity: 0;
+  transition: 0.4s;
+}
+
+#All:checked ~ .hero--title__tab--img {
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+}
+
+.about--modal {
+  display: none;
+}
+.about--modal__block {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about--modal__block--square {
+  width: 1170px;
+  height: 603px;
+  background: white;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 38px;
+  position: relative;
+  overflow-y: scroll;
+  animation: nod 0.5s alternate linear;
+}
+@keyframes nod {
+  0% {
+    transform: scale(0);
+  }
+  25% {
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(0.6);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  90% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.about--modal__block--square p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+.about--modal__block--square__close {
+  color: red;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: sans-serif;
+  position: absolute;
+  right: 15px;
+  height: 15px;
 }
 
 /*# sourceMappingURL=index.css.map */
