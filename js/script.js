@@ -21,3 +21,7 @@ const btnCloce = document.querySelector('.about--modal__block--square__close')
 btnCloce.addEventListener('click',() => {
     document.querySelector('.about--modal').style.display = 'none'
 })
+
+
+
+
