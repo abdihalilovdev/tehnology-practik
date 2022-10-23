@@ -1,3 +1,18 @@
-
+@media (max-width: 414px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    width: 90%;
+  }
+  .fancybox img {
+    width: 90%;
+  }
+  .hero--title__tab--img img {
+    width: 90%;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */
