@@ -1,6 +1,8 @@
 @import "reset";
 @import "mixins";
-
+.scroll {
+  overflow: hidden;
+}
 #header {
   .header {
     display: flex;
@@ -103,7 +105,6 @@
           transform: scale(1.1);
           transition: .4s;
         }
-
       }
 
       h4 {
@@ -148,11 +149,9 @@
             background: #D6D6D6;
             border-radius: 4px;
             padding: 0 10px;
-            margin: 35px 0
+            margin: 35px 0;
           }
         }
-
-
       }
 
       &__text {
@@ -404,7 +403,7 @@
             align-items: center;
             justify-content: center;
             transition: .3s;
-            margin: 20px 0;
+            margin: 20px 5px;
             cursor: pointer;
 
             &:hover {
@@ -513,7 +512,7 @@
             padding: 80px 60px;
 
             input {
-              width: 491px;
+              width: 291px;
               height: 58px;
               background: #D6D6D6;
               border-radius: 4px;
@@ -598,6 +597,7 @@
   background-color: #ECEFF1;
   box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
   transition-duration: .25s;
+  z-index: 99;
 }
 
 .menu__item {

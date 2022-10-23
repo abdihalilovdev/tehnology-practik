@@ -22,6 +22,10 @@ body {
   background: #EFEFEF;
 }
 
+.scroll {
+  overflow: hidden;
+}
+
 #header .header {
   display: flex;
   align-items: center;
@@ -339,7 +343,7 @@ body {
   align-items: center;
   justify-content: center;
   transition: 0.3s;
-  margin: 20px 0;
+  margin: 20px 5px;
   cursor: pointer;
 }
 #hero .hero--title__elements--btn button:hover {
@@ -434,7 +438,7 @@ body {
   padding: 80px 60px;
 }
 .about--modal__block--square__close--search label input {
-  width: 491px;
+  width: 291px;
   height: 58px;
   background: #D6D6D6;
   border-radius: 4px;
@@ -513,6 +517,7 @@ body {
   background-color: #ECEFF1;
   box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
   transition-duration: 0.25s;
+  z-index: 99;
 }
 
 .menu__item {
